@@ -13,16 +13,16 @@
       <br />
     </header>
     <nav class="nav">
-      <a href="#Cooking">Cooking</a>
+      <a href="#cooking">Cooking</a>
       <br />
-      <a href="#Exercising">Exercising</a>
+      <a href="#exercising">Exercising</a>
       <br />
-      <a href="#Beauty">Beauty</a>
+      <a href="#beauty">Beauty</a>
       <br />
     </nav>
 
     <main>
-      <section id="Cooking">
+      <section id="cooking">
         <h2>Cooking</h2>
         <p>
           Growing up I honestly never liked cooking. It wasn't until I started
@@ -44,8 +44,7 @@
         </p>
         <img src="cooking.jpeg" alt="Cooking" width="300" />
       </section>
-      <section>
-        <p id="Exercising"></p>
+      <section id="exercising">
         <h2>Exercising</h2>
         <p>
           I have always been an active person. Growing up I played soccer and
@@ -66,8 +65,7 @@
         </p>
         <img src="running.jpeg" alt="running" width="300" />
       </section>
-      <section>
-        <p id="Beauty"></p>
+      <section id="beauty">
         <h2>Beauty</h2>
         <p>
           I enjoy doing make-up,hair and eyelash extensions. I started doing
@@ -99,15 +97,18 @@
           <label for="lname">Last name:</label><br />
           <input type="text" id="lname" name="lname" />
 
-          <label for="thoughts">Thoughts</label>
-          <textarea
+          <label for="thoughts">Thoughts: </label>
+          <!-- <textarea
             name="thoughts"
             id="thoughts"
             cols="50"
             rows="10"
             placeholder="Share your thoughts">
-                    <!-- Do not give default value -->
                 </textarea
+          > -->
+          <textarea name="thoughts" id="thoughts" cols="50" rows="10">
+                    <!-- Do not give default value -->
+            </textarea
           >
           <input type="button" name="button" value="Submit" alt="Submit" />
         </form>
